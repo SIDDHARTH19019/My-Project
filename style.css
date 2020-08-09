@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.mindphones {
+    display:flex;
+}
+.heading {
+    width: 100vw;
+    background-color: aquamarine;
+    padding: 2%;
+    color: white;
+}
+
+.button {
+    color: white;
+    border: 3px solid white;
+    padding: 10px 15px;
+    text-align: center;
+    max-width: 130px;
+    cursor:pointer;
+}
+.items  {
+
+    display: flex;
+    justify-content: space-evenly;
+    border: 3px solid black;
+    margin: 50px 25px;
+}
+.items * {
+    margin: 10px;
+}
+.role {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: powderblue;
+    padding: 50px;
+}
+.catalog {
+    text-align: center;
+    padding: 50px;
+}
+.support {
+    background-color: papayawhip;
+    text-align: center;
+    padding: 50px;
+}
